@@ -1,0 +1,10 @@
+.name {
+  font-weight: light;
+  color: grey;
+}
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  
