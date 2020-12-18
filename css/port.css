@@ -1,10 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Taviraj&display=swap');
+
+html {
+  background-color: #f3f4f4;
+  font-family: 'Roboto', sans-serif;;
+}
+
+/* nav styles */
 .name {
-  font-weight: light;
   color: grey;
 }
 
+#navbarNav li a:hover {
+  color: #f0647d;
+}
 
-.selector-for-some-widget {
-    box-sizing: content-box;
+#aboutcont {
+  height: 350px;
+}
+#contact {
+  height: 300px;
+}
+/* main style */
+#firstlanding {
+  background-color: #f3f4f4;
+  height: 100vh; 
+}
+#firstlanding div {
+  padding-top: 100px;
+  background-color: #f3f4f4;
+}
+#headline {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#hello {
+  font-family: 'Taviraj', serif;
+  font-size: 3em;
+  color: #f1647d;
+}
+
+/* expanding flex */
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
   }
-  
+}
+
+
