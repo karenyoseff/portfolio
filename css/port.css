@@ -2,9 +2,12 @@
 
 html {
   background-color: #f3f4f4;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
-
+.textlight {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 /* nav styles */
 .name {
   color: grey;
@@ -14,13 +17,14 @@ html {
   color: #f0647d;
 }
 
-#aboutcont {
-  height: 350px;
+#about {
+  height: 450px;
 }
 #contact {
   height: 300px;
 }
-/* main style */
+
+/* landing cover */
 #firstlanding {
   background-color: #f3f4f4;
   height: 100vh; 
@@ -28,9 +32,10 @@ html {
 #firstlanding div {
   padding-top: 100px;
   background-color: #f3f4f4;
+  
 }
 #headline {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
@@ -41,9 +46,34 @@ html {
   color: #f1647d;
 }
 
+.div {
+  background-color: #f3f4f4;
+}
+/* container */
+#about {
+  padding-top: 50px;
+}
+#aboutcont{
+  padding-top: 40px;
+
+}
+/* cover container */
+.cover-container {
+  background-color: #f3f4f4;
+}
+/* jumbotron */
+.jumbotron {
+  background-color: #f3f4f4;
+}
+footer .jumbotron {
+  margin-bottom: 0;
+}
 /* expanding flex */
 .flex-equal > * {
   flex: 1;
+}
+#footerimgs {
+  text-align: right;
 }
 @media (min-width: 768px) {
   .flex-md-equal > * {
